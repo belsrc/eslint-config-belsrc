@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-belsrc",
+  "version": "0.1.0",
+  "description": "ESLint and Prettier configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belsrc/eslint-config-belsrc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belsrc/eslint-config-belsrc/issues"
+  },
+  "homepage": "https://github.com/belsrc/eslint-config-belsrc#readme",
+  "author": "bryan@bryanckizer.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 5.2.0 <6",
+    "prettier": ">=1.14.04 <2"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-vue": "^5.2.2"
+  }
+}
