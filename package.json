@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-belsrc",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "ESLint and Prettier configs",
   "main": "index.js",
   "files": [
