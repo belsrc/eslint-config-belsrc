@@ -1,5 +1,7 @@
 # eslint-config-belsrc
 
+[![Last Commit](https://img.shields.io/github/last-commit/belsrc/eslint-config-belsrc/master.svg?style=flat-square)](https://github.com/belsrc/eslint-config-belsrc/commits/master)
+
 An opinionated collection of ESLint plugin configs I use in other projects.
 
 * eslint-plugin-fp
