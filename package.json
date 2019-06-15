@@ -21,6 +21,16 @@
   "homepage": "https://github.com/belsrc/eslint-config-belsrc#readme",
   "author": "bryan@bryanckizer.com",
   "license": "MIT",
+  "keywords": [
+    "lint",
+    "linting",
+    "functional",
+    "fp",
+    "promise",
+    "import",
+    "jsx",
+    "vue"
+  ],
   "peerDependencies": {
     "eslint": ">= 5.2.0 <6",
     "prettier": ">=1.14.0 <2",
