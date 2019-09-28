@@ -32,13 +32,13 @@
     "vue"
   ],
   "peerDependencies": {
-    "eslint": ">= 5.2.0 <6",
+    "eslint": ">= 5.2.0 <7",
     "prettier": ">=1.14.0 <2",
     "babel-eslint": ">=10.0.0 <11"
   },
   "dependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-fp-jxl": "^3.1.0",
     "eslint-plugin-import": "^2.17.0",
     "eslint-plugin-promise": "^4.1.0",
     "eslint-plugin-react": "^7.13.0",

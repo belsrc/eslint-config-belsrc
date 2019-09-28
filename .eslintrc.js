@@ -17,7 +17,7 @@ module.exports = {
   },
   globals: {},
   extends: ['plugin:vue/base'],
-  plugins: ['fp', 'promise', 'import', 'react', 'vue'],
+  plugins: ['fp-jxl', 'promise', 'import', 'react', 'vue'],
   rules: {
 
     // Standard ESLint
@@ -258,24 +258,24 @@ module.exports = {
     }],
 
     // eslint-plugin-fp
-    // https://github.com/jfmengels/eslint-plugin-fp/tree/master/rules
-    'fp/no-arguments': 2,
-    'fp/no-class': 2,
-    'fp/no-delete': 2,
-    'fp/no-events': 2,
-    'fp/no-get-set': 2,
-    'fp/no-let': 2,
-    'fp/no-loops': 2,
-    'fp/no-mutating-assign': 2,
-    'fp/no-mutating-methods': [2, { 'allowedObjects': ['fjp'] }],
-    'fp/no-mutation': [2, { 'commonjs': true }],
-    'fp/no-nil': 1,
-    'fp/no-proxy': 2,
-    'fp/no-rest-parameters': 1,
-    'fp/no-this': 2,
-    'fp/no-throw': 2,
-    'fp/no-unused-expression': 1,
-    'fp/no-valueof-field': 2,
+    // https://github.com/JesterXL/eslint-plugin-fp-jxl/tree/master/rules
+    'fp-jxl/no-arguments': 2,
+    'fp-jxl/no-class': 2,
+    'fp-jxl/no-delete': 2,
+    'fp-jxl/no-events': 2,
+    'fp-jxl/no-get-set': 2,
+    'fp-jxl/no-let': 2,
+    'fp-jxl/no-loops': 2,
+    'fp-jxl/no-mutating-assign': 2,
+    'fp-jxl/no-mutating-methods': [2, { 'allowedObjects': ['fjp'] }],
+    'fp-jxl/no-mutation': [2, { 'commonjs': true }],
+    'fp-jxl/no-nil': 1,
+    'fp-jxl/no-proxy': 2,
+    'fp-jxl/no-rest-parameters': 0,
+    'fp-jxl/no-this': 2,
+    'fp-jxl/no-throw': 2,
+    'fp-jxl/no-unused-expression': 1,
+    'fp-jxl/no-valueof-field': 2,
 
     // eslint-plugin-promise
     // https://github.com/xjamundx/eslint-plugin-promise/tree/master/docs/rules
