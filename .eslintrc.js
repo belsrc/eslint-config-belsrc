@@ -249,7 +249,17 @@ module.exports = {
     'import/exports-last': 1,
     'import/no-duplicates': 1,
     'import/extensions': 1,
-    'import/order': [1, { 'newlines-between': 'never' }],
+    'import/order': [1, {
+      'newlines-between': 'never',
+      'groups': [
+        'builtin',
+        'external',
+        'parent',
+        'sibling',
+        'index',
+        'unknown',
+      ],
+    }],
     'import/newline-after-import': 1,
     'import/no-anonymous-default-export': [1, {
       'allowArray': false,
