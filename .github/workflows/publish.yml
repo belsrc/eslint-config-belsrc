@@ -1,0 +1,60 @@
+name: publish
+
+# Trigger the publish on tag pushes
+# You can also use
+#  release:
+#    types: [published]
+# But this requires you to manual make a new release from Github
+on:
+  push:
+    tags:
+      - v*.*.*
+
+jobs:
+  # If `lint` and `test` pass, publish to Github Pkg Reg
+  publish-gpr:
+    needs: [test, lint]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v1
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+          registry-url: https://npm.pkg.github.com/
+          scope: '@belsrc'
+      - name: Install Yarn
+        run: npm i -g yarn
+      - name: Install Packages
+        run: yarn install
+      - name: Publish Package @ Github
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  # If `build` passes, publish to NPM Pkg Reg
+  publish-npm:
+    needs: [test, lint]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v1
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+          registry-url: https://registry.npmjs.org/
+          scope: '@belsrc'
+      - name: Install Yarn
+        run: npm i -g yarn
+      - name: Install Packages
+        run: yarn install
+      - name: Publish Package @ NPM
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
