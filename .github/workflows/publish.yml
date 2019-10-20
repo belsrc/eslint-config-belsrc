@@ -13,7 +13,6 @@ on:
 jobs:
   # If `lint` and `test` pass, publish to Github Pkg Reg
   publish-gpr:
-    needs: [test, lint]
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
@@ -35,7 +34,6 @@ jobs:
 
   # If `build` passes, publish to NPM Pkg Reg
   publish-npm:
-    needs: [test, lint]
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
