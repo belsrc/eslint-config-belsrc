@@ -1,0 +1,39 @@
+{
+  "name": "@belsrc/eslint-config-node",
+  "version": "0.0.0",
+  "description": "ESLint config for Node",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".eslintrc.js",
+    ".prettierrc.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bryan@bryanckizer.com",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/belsrc/eslint-config-belsrc.git",
+    "directory": "packages/node"
+  },
+  "bugs": {
+    "url": "https://github.com/belsrc/eslint-config-belsrc/issues"
+  },
+  "homepage": "https://github.com/belsrc/eslint-config-belsrc#readme",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 6.6.0",
+    "prettier": ">=1.19.0"
+  },
+  "dependencies": {
+    "eslint-plugin-fp-jxl": "^3.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
