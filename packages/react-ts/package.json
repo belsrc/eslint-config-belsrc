@@ -1,5 +1,5 @@
 {
-  "name": "@belsrc/eslint-config-belsrc-ts",
+  "name": "@belsrc/eslint-config-react-ts",
   "version": "0.0.0",
   "description": "ESLint config for Typescripted React",
   "publishConfig": {
