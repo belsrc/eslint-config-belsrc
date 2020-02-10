@@ -4,7 +4,6 @@
   "description": "ESLint config for Typescripted Node",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/"
   },
   "main": "index.js",
   "files": [

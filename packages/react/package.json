@@ -4,7 +4,6 @@
   "description": "ESLint config for React",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/"
   },
   "main": "index.js",
   "files": [
