@@ -1,6 +1,6 @@
 {
   "name": "@belsrc/eslint-config-node-ts",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ESLint config for Typescripted Node",
   "publishConfig": {
     "access": "public"

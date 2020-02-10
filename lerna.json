@@ -2,11 +2,14 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"]
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
     }
   },
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0"
+  "version": "2.1.0"
 }
