@@ -10,7 +10,7 @@
     "lernapub": "lerna publish from-package",
     "lernapub:ci": "lerna publish from-git --yes",
     "pub": "npm-run-all build:rules lernapub",
-    "pub:ci": "npm-run-all build:rules lernapub:ci"
+    "pub:ci": "npm-run-all bootstrap build:rules lernapub:ci"
   },
   "repository": {
     "type": "git",
