@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bootstrap": "lerna bootstrap",
     "build:rules": "node ./utils/make-rules.js",
-    "verson": "lerna version --conventional-commits -m \"chore(release): publish %s\"",
+    "version": "lerna version --conventional-commits -m \"chore(release): publish %s\"",
     "lernapub": "lerna publish from-package --skip-git",
     "lernapub:ci": "lerna publish from-git --skip-git",
     "pub": "npm-run-all build:rules lernapub",
