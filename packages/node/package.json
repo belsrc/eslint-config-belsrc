@@ -28,6 +28,7 @@
   "homepage": "https://github.com/belsrc/eslint-config-belsrc#readme",
   "license": "MIT",
   "peerDependencies": {
+    "babel-eslint": ">=10.0.0",
     "eslint": ">= 6.6.0",
     "prettier": ">=1.19.0"
   },

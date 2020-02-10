@@ -29,7 +29,8 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 6.6.0",
-    "prettier": ">=1.19.0"
+    "prettier": ">=1.19.0",
+    "typescript": ">=3.7.5"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.19.0",
@@ -37,7 +38,6 @@
     "eslint-plugin-fp-jxl": "^3.1.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.7.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "typescript": "^3.7.5"
+    "eslint-plugin-promise": "^4.2.1"
   }
 }
