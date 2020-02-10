@@ -2,6 +2,8 @@
 
 An opinionated collection of ESLint plugin configs I use in other projects.
 
+_(Part of [eslint-config-belsrc](https://github.com/belsrc/eslint-config-belsrc/blob/master/README.md) mono repo)_
+
 * eslint-plugin-fp-jxl
 * eslint-plugin-import
 * eslint-plugin-jsx-a11y
