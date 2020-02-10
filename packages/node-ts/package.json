@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "ESLint config for Typescripted Node",
   "publishConfig": {
-    "access": "public",
+    "access": "public"
   },
   "main": "index.js",
   "files": [
