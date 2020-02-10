@@ -1,4 +1,4 @@
-# @belsrc/eslint-config-belsrc-ts
+# @belsrc/eslint-config-react-ts
 
 An opinionated collection of ESLint plugin configs I use in other projects.
 
@@ -14,7 +14,7 @@ An opinionated collection of ESLint plugin configs I use in other projects.
 ## Install
 
 ```bash
-npm i -D @belsrc/eslint-config-belsrc-ts
+npm i -D @belsrc/eslint-config-react-ts
 ```
 
 ## Use
@@ -22,7 +22,7 @@ npm i -D @belsrc/eslint-config-belsrc-ts
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@belsrc/eslint-config-belsrc-ts'],
+  extends: ['@belsrc/eslint-config-react-ts'],
 };
 ```
 
@@ -30,7 +30,7 @@ The package also contains a usable prettier config.
 
 ```js
 // .prettierrc.js
-const config = require('@belsrc/eslint-config-belsrc-ts/.prettierrc');
+const config = require('@belsrc/eslint-config-react-ts/.prettierrc');
 
 module.exports = config;
 ```
